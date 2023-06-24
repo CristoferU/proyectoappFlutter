@@ -21,16 +21,6 @@ class NavBar extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: const Icon(Icons.add_a_photo_rounded),
-            title: const Text('Subir Fotos'),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const Login()),
-              );
-            },
-          ),
-          ListTile(
             leading: const Icon(Icons.person_rounded),
             title: const Text('Perfil'),
             onTap: () {
@@ -66,7 +56,7 @@ class NavBar extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const Login()),
+                MaterialPageRoute(builder: (context) => const otro()),
               );
             },
           ),

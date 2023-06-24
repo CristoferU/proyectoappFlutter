@@ -37,14 +37,14 @@ class _PagoState extends State<Pago> {
     return Scaffold(
         drawer: const NavBar(),
       appBar: AppBar(
-        title: const Text('Volestos'),
+        title: const Text('Boletos'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Voletos:',
+              'Boletos:',
               style: TextStyle(fontSize: 20),
             ),
             Text(
@@ -76,6 +76,7 @@ class _PagoState extends State<Pago> {
               ],
             ),
           ],
+          
         ),
       ),
     );

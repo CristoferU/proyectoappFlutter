@@ -14,7 +14,7 @@ class _otroState extends State<otro> {
   Widget build(BuildContext context) {
     return Scaffold(
         drawer: const NavBar(),
-      backgroundColor: Color.fromARGB(255, 0, 0, 0),
+      backgroundColor: Color.fromARGB(255, 150, 195, 223),
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 30.0, vertical: 90.0),
         children: <Widget>[

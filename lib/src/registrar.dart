@@ -19,7 +19,7 @@ class _registrarState extends State<registrar> {
         backgroundColor: Color.fromARGB(255, 167, 87, 37),
       ),
       body: Container(
-        color: Colors.black,
+         color: Color.fromARGB(255, 228, 226, 225),
         padding: const EdgeInsets.symmetric(horizontal: 30.0, vertical: 90.0),
         child: ListView(
           children: <Widget>[
@@ -47,7 +47,7 @@ class _registrarState extends State<registrar> {
             ),
             Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 123, 59, 20),
+                color: Color.fromARGB(255, 228, 226, 225),
                 borderRadius: BorderRadius.circular(20.0),
               ),
               child: Column(

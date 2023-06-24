@@ -10,6 +10,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
    MyApp({Key? key}) : super(key: key);
+   
 
   final _routes = {
     '/registrar': (context) => const registrar(),
