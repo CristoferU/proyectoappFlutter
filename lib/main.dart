@@ -8,6 +8,9 @@ import 'package:proyectoapp/src/servicios.dart';
 
 void main() => runApp(MyApp());
 
+runApp(MyApp myApp) {
+}
+
 class MyApp extends StatelessWidget {
    MyApp({Key? key}) : super(key: key);
    
